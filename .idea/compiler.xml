@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="second-kill-message-9090" />
+        <module name="second-kill-earlywarning-9097" />
+        <module name="second-kill-usercenter-9093" />
+        <module name="second-kill-admin-7070" />
+        <module name="second-kill-orders-9095" />
+        <module name="second-kill-commons" />
+        <module name="second-kill-analysis-9097" />
+        <module name="second-kill-pay-9092" />
+        <module name="second-kill-search-9091" />
+        <module name="second-kill-gateway-9094" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="second-kill-admin-7070" options="-parameters" />
+      <module name="second-kill-analysis-9097" options="-parameters" />
+      <module name="second-kill-commons" options="" />
+      <module name="second-kill-earlywarning-9097" options="-parameters" />
+      <module name="second-kill-gateway-9094" options="" />
+      <module name="second-kill-message-9090" options="" />
+      <module name="second-kill-orders-9095" options="-parameters" />
+      <module name="second-kill-pay-9092" options="-parameters" />
+      <module name="second-kill-search-9091" options="-parameters" />
+      <module name="second-kill-usercenter-9093" options="-parameters" />
+    </option>
+  </component>
+</project>

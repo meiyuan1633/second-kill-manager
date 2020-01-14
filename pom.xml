@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.tina</groupId>
+  <artifactId>second-kill-manager</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.0-SNAPSHOT</version>
+  <modules>
+    <module>second-kill-admin-7070</module>
+    <module>second-kill-analysis-9097</module>
+    <module>second-kill-commons</module>
+    <module>second-kill-earlywarning-9097</module>
+    <module>second-kill-gateway-9094</module>
+    <module>second-kill-message-9090</module>
+    <module>second-kill-orders-9095</module>
+    <module>second-kill-pay-9092</module>
+    <module>second-kill-search-9091</module>
+    <module>second-kill-usercenter-9093</module>
+  </modules>
+
+  <name>second-kill-manager</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.2.RELEASE</version>
+  </parent>
+
+</project>
